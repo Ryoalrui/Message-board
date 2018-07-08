@@ -3,7 +3,7 @@ header('content-type:text/html;charset=UTF-8');
 date_default_timezone_set('PRC');
 
 // 连接数据库
-$pdo=new pdo("mysql:host=localhost;dbname=msg",'root','1010LING');
+$pdo=new pdo("mysql:host=localhost;dbname=msg",'用户名','用户密码');
 $pdo->exec('set names utf8');
 
 //读取数据
